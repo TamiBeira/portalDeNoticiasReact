@@ -1,0 +1,51 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--backgrondPrincipal);
+    box-shadow: 0 5px 5px #31313173;
+    position: fixed;
+}
+.header .logotipo a>h1{
+    font-style: italic;
+}
+.header .logotipo>a{
+    display: flex;
+    align-items:flex-start;
+}
+.header .logotipo a, .admin{
+    color: var(--corSecundaria);
+    font-weight: bold;
+}
+.admin:hover{
+    color: var(--backgroundHover);
+}
+.header .logotipo a>small{
+    margin-top: 5px;
+    font-size: 14px;
+    font-style: italic;
+    color: var(--corPrincipal);
+    border-bottom: 1px solid var(--corPrincipal);
+
+}
+.busca form input{
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+.busca form input[type='text']{
+    width: 250px;
+    border-radius: 5px 0px 0px 5px;
+}
+.busca form input[type='submit']{
+    width: 100px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: var(--corPrincipal);
+    color: var(--corSecundaria);
+    cursor: pointer;
+}
+.busca form input[type='submit']:hover{
+    background-color: var(--backgroundHover);
+}

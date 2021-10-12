@@ -1,0 +1,25 @@
+/*FONTE USADA*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*RESET*/
+h1,h2,h3,p,input,nav,ul,li,a,span,figure,img,figcaption,div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+/*VARIAVEIS*/
+:root{
+    --corPrincipal: #645e5e;
+    --corSecundaria: #ffffff;
+    --corTerciaria: #000000ab;
+    --backgrondPrincipal: #3ea3f7;
+    --backgroundHover: #404040;
+    --backgroundCards:  #cbcbcb60;
+}
